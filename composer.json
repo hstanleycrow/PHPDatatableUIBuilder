@@ -35,7 +35,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "hstanleycrow/easyphpdatatables": "^1.0.0"
+        "hstanleycrow/easyphpdatatables": "^1.0.1"
     },
     "autoload": {
         "psr-4": {
