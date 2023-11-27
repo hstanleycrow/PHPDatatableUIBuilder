@@ -1,0 +1,65 @@
+{
+    "name": "hstanleycrow/phpdatatableuibuilder",
+    "description": "Free PHP web component to create CRUD datatables UI",
+    "keywords": [
+        "php",
+        "components",
+        "datatables",
+        "web components",
+        "crud",
+        "datatable",
+        "easyphpdatatablecrud",
+        "easyphpdatatable",
+        "easydatatablecrud",
+        "easydatatable"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/hstanleycrow/PHPDatatableUIBuilder",
+    "authors": [
+        {
+            "name": "Harold Rivas AKA Harold Crow",
+            "email": "holamundo@microaplicaciones.com",
+            "homepage": "https://www.microaplicaciones.com/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hstanleycrow/EasyPHPDatatables.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hstanleycrow/EasyPHPWebComponents.git"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "hstanleycrow/easyphpdatatables": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "hstanleycrow\\EasyPHPDatatableCRUD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "hstanleycrow\\DatatablesDefinitions\\": "DatatablesDefinitions/",
+            "hstanleycrow\\Components\\": "Components/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6",
+        "hstanleycrow/easyphpwebcomponents": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
