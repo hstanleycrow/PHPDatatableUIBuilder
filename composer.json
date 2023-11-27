@@ -1,6 +1,6 @@
 {
     "name": "hstanleycrow/phpdatatableuibuilder",
-    "description": "Free PHP web component to create CRUD datatables UI",
+    "description": "Free PHP library web component to create CRUD datatables UI",
     "keywords": [
         "php",
         "components",
