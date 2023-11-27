@@ -34,8 +34,8 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "hstanleycrow/easyphpdatatables": "dev-main"
+        "php": "^8.2",
+        "hstanleycrow/easyphpdatatables": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -53,7 +53,7 @@
     },
     "require-dev": {
         "vlucas/phpdotenv": "^5.6",
-        "hstanleycrow/easyphpwebcomponents": "dev-main"
+        "hstanleycrow/easyphpwebcomponents": "^1.0.0"
     },
     "config": {
         "allow-plugins": {
